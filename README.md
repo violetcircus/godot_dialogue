@@ -12,13 +12,19 @@ you want to trigger dialogue:
 
 SignalBus.display_dialog.emit(self.name)
 
+then drop the dialogue_holder node into your scene.
+the json file it uses is based on the scene name so
+it'll automatically load whichever json you have 
+that correponds to it
+
 it uses the name of the node as the name
 displayed for the npc in the window and also
 to find the correct dialogue tree in the json file.
 
 you should probably create one for each scene that
 will contain dialogue. you don't have to listen to me
-though. go nuts
+though. go nuts. mess with the code. it's nothing too
+crazy under the hood
 
 it comes with an example JSON file with one dialogue
 tree in it. it's a pretty simple structure to follow
@@ -45,4 +51,5 @@ overcomplicate things
 
 my bad for not really commenting the code. i'm sure you'll figure it out
 (or i'll do it later)
+
 ![image](https://github.com/violetcircus/godot_dialogue/assets/26161381/39868f38-309e-4e2f-a3fd-f18619853a18)
