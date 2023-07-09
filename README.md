@@ -42,3 +42,6 @@ his system uses arrays instead of nested objects to store dialogue
 which isn't really conducive to player agency and forking paths but
 definitely works for a lot of games. i'm just a nerd and like to 
 overcomplicate things
+
+my bad for not really commenting the code. i'm sure you'll figure it out
+or i'll change it to be better eventually.
