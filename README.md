@@ -37,3 +37,8 @@ or it wouldn't use an MIT license
 
 speaking of the tutorial, shoutout this guy:
 https://www.youtube.com/watch?v=Ur9j3c5_of0&pp=ygUaZ29kb3QgZGlhbG9ndWUgc3lzdGVtIGpzb24%3D
+
+his system uses arrays instead of nested objects to store dialogue
+which isn't really conducive to player agency and forking paths but
+definitely works for a lot of games. i'm just a nerd and like to 
+overcomplicate things
