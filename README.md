@@ -13,9 +13,9 @@ you want to trigger dialogue:
 SignalBus.display_dialog.emit(self.name)
 
 then drop the dialogue_holder node into your scene.
-the json file it uses is based on the name of the
-scene it's in so it'll automatically load whichever 
-json you have that correponds to it
+the json file it uses is based on the exported string
+"scene_name". I couldn't figure out how 
+to export  a json file variable to the editor lol
 
 it uses the name of the node as the name
 displayed for the npc in the window and also
