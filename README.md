@@ -10,7 +10,7 @@ to ur project's signal bus and ur basically done.
 then just add this to whichever piece of code 
 you want to trigger dialogue:
 
-display_dialog.emit(self.name)
+SignalBus.display_dialog.emit(self.name)
 
 it uses the name of the node as the name
 displayed for the npc in the window and also
