@@ -32,7 +32,8 @@ that's siblings with a replies array in the example json)
 i'm sure this could be improved. it's like the second 
 mildly good thing i've written in godot and was initially
 based on a tutorial i found on youtube. steal it and make it
-better and tell me about it if you do. or don't. idc
+better and tell me about it if you do. or don't. idc much
+or it wouldn't use an MIT license
 
 speaking of which, shoutout this guy:
 https://www.youtube.com/watch?v=Ur9j3c5_of0&pp=ygUaZ29kb3QgZGlhbG9ndWUgc3lzdGVtIGpzb24%3D
