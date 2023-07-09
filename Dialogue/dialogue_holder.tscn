@@ -1,0 +1,76 @@
+[gd_scene load_steps=3 format=3 uid="uid://btxfl4g1ymg64"]
+
+[ext_resource type="Script" path="res://Dialogue/dialogue.gd" id="1_j2din"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_2gl4p"]
+
+[node name="DialogueHolder" type="Control"]
+process_mode = 2
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_j2din")
+
+[node name="Background" type="TextureRect" parent="."]
+modulate = Color(0.368627, 0.223529, 0.321569, 1)
+layout_mode = 0
+offset_left = 17.0
+offset_top = 501.0
+offset_right = 1137.0
+offset_bottom = 639.0
+texture = SubResource("CanvasTexture_2gl4p")
+
+[node name="Name" type="Label" parent="."]
+layout_mode = 2
+offset_left = 34.0
+offset_top = 503.0
+offset_right = 81.0
+offset_bottom = 529.0
+text = "Name"
+
+[node name="Dialogue" type="Label" parent="."]
+layout_mode = 2
+offset_left = 34.0
+offset_top = 527.0
+offset_right = 1002.0
+offset_bottom = 629.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Dialogue"
+
+[node name="DialogueClose" type="Button" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 1008.0
+offset_top = 605.0
+offset_right = 1122.0
+offset_bottom = 636.0
+text = "close"
+
+[node name="DialogueOkay" type="Button" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 1008.0
+offset_top = 572.0
+offset_right = 1122.0
+offset_bottom = 603.0
+text = "okay"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 32.0
+offset_top = 528.0
+offset_right = 1117.0
+offset_bottom = 626.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[connection signal="pressed" from="DialogueClose" to="." method="finish"]
+[connection signal="pressed" from="DialogueOkay" to="." method="next_line"]

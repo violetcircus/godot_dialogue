@@ -1,0 +1,20 @@
+{
+	"pink_box": {
+		"dialogue": {
+			"I'm the pink box!": {
+				"I don't have much to say.": {
+					"next": {
+						"END": "true",
+						"Hey, fuck you, man.": {
+							"END": "true"
+						}
+					},
+					"replies": [
+					"...Okay.",
+					"Kill yourself!"
+					]
+				}
+			}
+		}
+	}
+}
