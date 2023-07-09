@@ -44,4 +44,4 @@ definitely works for a lot of games. i'm just a nerd and like to
 overcomplicate things
 
 my bad for not really commenting the code. i'm sure you'll figure it out
-(or i'll fix it later)
+(or i'll do it later)
