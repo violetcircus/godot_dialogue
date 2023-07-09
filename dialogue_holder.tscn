@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://btxfl4g1ymg64"]
 
-[ext_resource type="Script" path="res://Dialogue/dialogue.gd" id="1_j2din"]
+[ext_resource type="Script" path="res://godot_dialogue/dialogue.gd" id="1_j2din"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_2gl4p"]
 

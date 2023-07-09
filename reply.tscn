@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bbswjkarliu1b"]
 
-[ext_resource type="Script" path="res://Dialogue/reply.gd" id="1_87km5"]
+[ext_resource type="Script" path="res://godot_dialogue/reply.gd" id="1_87km5"]
 
 [node name="Reply" type="Button"]
 offset_right = 969.0
