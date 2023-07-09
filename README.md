@@ -35,5 +35,5 @@ based on a tutorial i found on youtube. steal it and make it
 better and tell me about it if you do. or don't. idc much
 or it wouldn't use an MIT license
 
-speaking of which, shoutout this guy:
+speaking of the tutorial, shoutout this guy:
 https://www.youtube.com/watch?v=Ur9j3c5_of0&pp=ygUaZ29kb3QgZGlhbG9ndWUgc3lzdGVtIGpzb24%3D
