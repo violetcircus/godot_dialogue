@@ -1,6 +1,5 @@
 violet's simulacrum conversation facilitator
 ============================================
-![image](https://github.com/violetcircus/godot_dialogue/assets/26161381/39868f38-309e-4e2f-a3fd-f18619853a18)
 
 preload the signal bus or add 
 
@@ -46,3 +45,4 @@ overcomplicate things
 
 my bad for not really commenting the code. i'm sure you'll figure it out
 (or i'll do it later)
+![image](https://github.com/violetcircus/godot_dialogue/assets/26161381/39868f38-309e-4e2f-a3fd-f18619853a18)
