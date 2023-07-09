@@ -8,7 +8,7 @@ extends Control
 @onready var scroll_container = $ScrollContainer
 @onready var reply_container = $ScrollContainer/VBoxContainer
 
-var reply_scene = preload("res://Dialogue/reply.tscn")
+var reply_scene = preload("res://godot_dialogue/reply.tscn")
 
 @export var scene_name = "Dialogue"
 
@@ -29,7 +29,7 @@ func _ready():
 	SignalBus.connect("display_dialog", on_display_dialog)
 	
 func load_scene_text():
-	var file = "res://Dialogue/json/"+ scene_name +".json"
+	var file = "res://godot_dialogue/json/"+ scene_name +".json"
 	var json_as_text = FileAccess.get_file_as_string(file)
 	var json_as_dict = JSON.parse_string(json_as_text)
 	print(json_as_dict)
